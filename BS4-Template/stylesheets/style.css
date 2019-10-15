@@ -1,0 +1,48 @@
+.main-wrapper {                                                 /* Main page height 100% of viewport*/
+    height: 100vh;
+    background-image: url('../assets/images/background.jpg');
+    background-size: cover;
+}
+
+.section{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.section-2,.section-3,.section-4,.section-5{
+    padding-top: 10rem;
+    padding-bottom:10rem;
+}
+
+#landing-page-heading-style{
+    font-family: 'Poiret One', cursive;
+    letter-spacing: .4rem;
+    font-weight: bolder;
+}
+
+#landing-page-logo,.nav-link{
+    font-family: 'Poiret One', cursive;
+    font-weight: bolder;
+}
+
+#landing-page-para-style{
+    font-family: 'Kaushan Script', cursive;
+    letter-spacing: .4rem;
+}
+
+.fa{
+    font-size: 3em;
+}
+    
+.mt-4{
+    padding-top: 10rem;
+}
+
+#team-icon{
+    margin-top: 6px;
+    font-size:2em; 
+    color: white;
+}
